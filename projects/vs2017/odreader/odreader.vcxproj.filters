@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{3f009d6b-1e09-4eeb-a437-a4a81b3ab9f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\views">
+      <UniqueIdentifier>{74f31dff-cbd0-4f17-a768-8a9808121630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\minizip">
+      <UniqueIdentifier>{33f1e9e3-1feb-4ee6-a4fa-0cd273f3b557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\xml">
+      <UniqueIdentifier>{309d48b0-db1d-4e5b-9658-0db695d33865}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\sdl_helper.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\label_cache.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\views\view_manager.h">
+      <Filter>src\views</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\common.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\views\book_view.h">
+      <Filter>src\views</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\minizip\unzip.h">
+      <Filter>src\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\minizip\iowin32.h">
+      <Filter>src\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\minizip\ioapi.h">
+      <Filter>src\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xml\pugiconfig.hpp">
+      <Filter>src\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xml\pugixml.hpp">
+      <Filter>src\xml</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\views\view_manager.cpp">
+      <Filter>src\views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\minizip\unzip.c">
+      <Filter>src\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\minizip\ioapi.c">
+      <Filter>src\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\minizip\iowin32.c">
+      <Filter>src\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xml\pugixml.cpp">
+      <Filter>src\xml</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
